@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Resume";
+}
+@model InternovusResume.Models.ResumeFieldsModel
+<h1>CV</h1>
+	<div id="wrapper">
+	<div id="name" class="singEdit">@Model.Name</div>
+	<div id="email" class="singEdit">@Model.Email</div>
+<br>
+	<div class="tags">Education:</div>
+	<hr>
+<ul id="parentUL" class="multiplEdit">
+    @foreach (var edu in Model.WorkLife)
+    { 
+        <li>@edu</li>
+    }
+</ul>
+<div class="buttons">
+<button id="add">Add new</button>
+<button id="remove">Remove selected</button>
+</div>
+<br>
+<br>
+<div class="tags">Skills:</div>
+<hr>
+
+<ul id="skills" class="multiplEdit">
+  @foreach (var skill in Model.Skills) 
+  {
+      <li>@skill</li>
+  }
+
+</ul>
+<div class="buttons">
+<button id="addSkill">Add new</button>
+<button id="removeSkill">Remove selected</button>
+</div>
+<br>
+<br>
+<div class="tags">Github projects:</div>
+<hr>
+<div id="repo" class="singEdit">@Model.Repository</div>
+        <br />
+        <button id="save">Save changes</button>
+<div id="success"></div>
+
+</div>

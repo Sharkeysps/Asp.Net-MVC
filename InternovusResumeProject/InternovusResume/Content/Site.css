@@ -1,0 +1,28 @@
+﻿#wrapper{
+	width: 500px;
+	height: 550px;
+	position:absolute;
+	left:32%;
+	margin-top: 20px;
+}
+h1{
+	text-align: center;
+}
+.buttons{
+	position: absolute;
+	margin-left: 10px;
+}
+button{
+	height:25px;
+}
+body{
+background-color:#F8FCB4;
+}
+
+.singEdit{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.tags{
+	margin-left: 5px;
+}

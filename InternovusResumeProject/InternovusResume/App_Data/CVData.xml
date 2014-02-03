@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResumeFieldsModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Spas Tyurkedzhiev</Name>
+  <Email>spastyurkedzhiev@gmail.com</Email>
+  <Repository>https://github.com/Sharkeysps/</Repository>
+  <Skills>
+    <string>.Net</string>
+    <string>Java</string>
+    <string>Android</string>
+  </Skills>
+  <WorkLife>
+    <string>2005 – 2010 – Gymnasium of foreign languages “Hristo Botev” Kardzhali</string>
+    <string>2010-present –TU Sofia University Major in Informatics</string>
+    <string>2012-2013-Successfully finished Telerik Software Academy</string>
+    <string>Input</string>
+  </WorkLife>
+</ResumeFieldsModel>
